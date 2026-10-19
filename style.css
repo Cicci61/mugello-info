@@ -172,3 +172,4 @@ main{position:relative;z-index:3}
 .categorie span{font-size:.86rem;padding:6px 11px;border-radius:99px;background:var(--tinta)}
 .categorie b{color:var(--acc)}
 .categorie:hover span{outline:1px solid var(--acc)}
+@media (max-width:699px){.hero{padding-bottom:150px}.sole{width:72px;right:10%;bottom:72px}}
