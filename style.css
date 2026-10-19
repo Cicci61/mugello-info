@@ -1,0 +1,174 @@
+@font-face{font-family:"Inter Tight";font-weight:500;font-display:swap;src:url(font/inter-tight-500.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:600;font-display:swap;src:url(font/inter-tight-600.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:700;font-display:swap;src:url(font/inter-tight-700.woff2) format("woff2")}
+
+:root{
+  --bg:#f3efe6; --carta:#fffdf8; --testo:#1b2420; --tenue:#5a655f; --linea:#e4ddcf; --ombra:0 1px 2px rgb(40 30 10/.06),0 8px 24px -12px rgb(40 30 10/.18);
+  --verde:#1f5a45; --strade:#c7701c; --eventi:#b83a62; --calcio:#23804d; --salute:#2a66ab;
+  --tinta-strade:#fbefe2; --tinta-eventi:#f9e6ec; --tinta-calcio:#e3f2e8; --tinta-salute:#e4edf8;
+  --cielo1:#0f2d28; --cielo2:#24564a; --cielo3:#d98f4e; --sole:#ffd28a;
+  --col1:#4c8462; --col2:#2f644b; --col3:#1d4a37;
+  --r:18px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0e1512; --carta:#16201b; --testo:#e7ece9; --tenue:#9eaca4; --linea:#25332c; --ombra:0 1px 2px rgb(0 0 0/.3),0 10px 30px -14px rgb(0 0 0/.6);
+    --verde:#7cc3a2; --strade:#f0a35a; --eventi:#ec7d9f; --calcio:#6ccf93; --salute:#7fb1ec;
+    --tinta-strade:#2b2117; --tinta-eventi:#2c1a21; --tinta-calcio:#16291e; --tinta-salute:#172333;
+    --cielo1:#08130f; --cielo2:#163a31; --cielo3:#8a5a35; --sole:#e7b06a;
+    --col1:#2b5340; --col2:#1d3d2f; --col3:#142e23;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--testo);font:500 16px/1.5 "Inter Tight",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 16px}
+@media (min-width:700px){.wrap{padding:0 28px}}
+.ico{width:22px;height:22px;flex:none}
+.ico-p{width:16px;height:16px;flex:none;vertical-align:-3px}
+
+/* ---------- testata con il paesaggio ---------- */
+.hero{position:relative;overflow:hidden;color:#fff;
+  background:linear-gradient(180deg,var(--cielo1) 0%,var(--cielo2) 48%,var(--cielo3) 100%);
+  padding-bottom:clamp(110px,16vw,210px)}
+.sole{position:absolute;right:12%;bottom:clamp(70px,11vw,150px);width:clamp(90px,14vw,190px);aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle,var(--sole) 0 38%,rgb(255 210 138/.35) 39%,transparent 70%);opacity:.9}
+.colline{position:absolute;left:0;bottom:-1px;width:100%;height:clamp(120px,20vw,260px);display:block}
+.colline .c1{fill:var(--col1)} .colline .c2{fill:var(--col2)} .colline .c3{fill:var(--col3)} .colline .c4{fill:var(--bg)}
+.barra{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:18px;padding-bottom:18px}
+.marchio{font-weight:700;font-size:1.3rem;letter-spacing:-.02em;text-decoration:none}
+.marchio span{color:var(--sole)}
+.menu{display:none;gap:4px}
+.menu a{text-decoration:none;font-weight:600;font-size:.92rem;padding:8px 12px;border-radius:99px;color:rgb(255 255 255/.85)}
+.menu a:hover{background:rgb(255 255 255/.12);color:#fff}
+@media (min-width:900px){.menu{display:flex}}
+.intro{position:relative;z-index:2;padding-top:clamp(28px,6vw,72px)}
+.oggi{margin:0 0 10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;color:var(--sole)}
+h1{margin:0;font-weight:700;font-size:clamp(2.6rem,8.5vw,5.6rem);line-height:.98;letter-spacing:-.035em;max-width:12ch}
+h1 em{font-style:normal;color:var(--sole)}
+.lead{margin:18px 0 0;font-size:clamp(1.05rem,2.2vw,1.3rem);max-width:34ch;color:rgb(255 255 255/.86)}
+.contatori{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 0;max-width:720px}
+.contatori a{text-decoration:none;font-size:.92rem;padding:8px 14px;border-radius:99px;background:rgb(255 255 255/.12);
+  border:1px solid rgb(255 255 255/.22);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);transition:background .2s}
+.contatori a:hover{background:rgb(255 255 255/.22)}
+.contatori b{font-weight:700;color:var(--sole)}
+
+/* ---------- sezioni ---------- */
+main{position:relative;z-index:3}
+.sezione{margin:clamp(8px,2vw,20px) 0 48px}
+.testa-sezione{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.testa-sezione h2{display:flex;align-items:center;gap:10px;margin:0;font-size:clamp(1.4rem,3vw,1.8rem);letter-spacing:-.02em}
+.testa-sezione h2 .ico{color:var(--verde)}
+.vai{font-weight:600;font-size:.95rem;color:var(--verde);text-decoration:none}
+.vai:hover{text-decoration:underline}
+
+/* notizie */
+.notizie{display:grid;gap:14px;grid-template-columns:1fr}
+.notizia{display:flex;gap:14px;align-items:center;text-decoration:none;background:var(--carta);border:1px solid var(--linea);border-radius:var(--r);
+  padding:10px;box-shadow:var(--ombra);transition:transform .2s,box-shadow .2s;min-width:0}
+.notizia:hover{transform:translateY(-2px)}
+.notizia .foto{flex:none;width:96px;aspect-ratio:4/3;border-radius:12px;overflow:hidden;background:var(--linea)}
+.notizia img,.notizia .senza-foto{display:block;width:100%;height:100%;object-fit:cover}
+.notizia .testo{display:flex;flex-direction:column;gap:4px;min-width:0}
+.notizia time{font-size:.78rem;font-weight:600;color:var(--tenue);text-transform:uppercase;letter-spacing:.05em}
+.notizia .titolo{font-weight:600;line-height:1.3;overflow-wrap:anywhere}
+.notizia.prima{flex-direction:column;align-items:stretch;padding:0;overflow:hidden}
+.notizia.prima .foto{width:100%;aspect-ratio:16/9;border-radius:0}
+.notizia.prima .testo{padding:4px 18px 18px}
+.notizia.prima .titolo{font-size:clamp(1.25rem,2.6vw,1.6rem);font-weight:700;letter-spacing:-.015em;line-height:1.2}
+@media (min-width:700px){.notizie{grid-template-columns:1fr 1fr}.notizia.prima{grid-column:1/-1}}
+@media (min-width:1000px){
+  .notizie{grid-template-columns:1.35fr 1fr 1fr;grid-template-rows:repeat(3,auto)}
+  .notizia.prima{grid-column:1;grid-row:1/4}
+  .notizia.prima .foto{aspect-ratio:auto;flex:1;min-height:220px}
+  .notizia:not(.prima) .foto{width:84px}
+}
+
+/* carte dei servizi */
+.servizi{display:grid;gap:18px;grid-template-columns:1fr;margin-bottom:56px}
+@media (min-width:860px){.servizi{grid-template-columns:1fr 1fr}}
+.carta{--acc:var(--verde);--tinta:var(--linea);display:flex;flex-direction:column;background:var(--carta);border:1px solid var(--linea);
+  border-radius:calc(var(--r) + 4px);box-shadow:var(--ombra);overflow:hidden;position:relative;min-width:0}
+.carta::before{content:"";position:absolute;inset:0 0 auto;height:5px;background:var(--acc)}
+.carta-strade{--acc:var(--strade);--tinta:var(--tinta-strade)}
+.carta-eventi{--acc:var(--eventi);--tinta:var(--tinta-eventi)}
+.carta-calcio{--acc:var(--calcio);--tinta:var(--tinta-calcio)}
+.carta-salute{--acc:var(--salute);--tinta:var(--tinta-salute)}
+.carta>header{display:flex;gap:14px;align-items:center;padding:24px 22px 14px}
+.bollo{display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--tinta);color:var(--acc);flex:none}
+.carta h2{margin:0;font-size:1.5rem;letter-spacing:-.02em;line-height:1.1}
+.sotto{margin:3px 0 0;color:var(--tenue);font-size:.95rem}
+.sotto b{color:var(--testo)}
+.carta>footer{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 22px 20px;border-top:1px solid var(--linea)}
+.nota{font-size:.82rem;color:var(--tenue)}
+.bottone{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:.95rem;padding:10px 16px;border-radius:99px;
+  background:var(--acc);color:#fff;transition:filter .2s}
+@media (prefers-color-scheme:dark){.bottone{color:#0e1512}}
+.bottone:hover{filter:brightness(1.08)}
+
+.avvisi,.risultati{list-style:none;margin:0;padding:0 22px 16px}
+.avvisi li{display:grid;grid-template-columns:auto 1fr;column-gap:12px;row-gap:2px;padding:11px 0;border-top:1px dashed var(--linea)}
+.avvisi li:first-child{border-top:0}
+.avvisi .tipo{grid-row:1/3;align-self:start;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:4px 8px;border-radius:7px;
+  background:var(--tinta);color:var(--acc);width:9.5em;text-align:center;line-height:1.25}
+.avvisi .t-interruzione .tipo{background:#c43d2e;color:#fff}
+.avvisi .cosa{font-weight:600;overflow-wrap:anywhere}
+.avvisi .dove{font-size:.88rem;color:var(--tenue)}
+@media (max-width:420px){.avvisi li{grid-template-columns:1fr}.avvisi .tipo{grid-row:auto;width:auto;justify-self:start;margin-bottom:4px}}
+
+.guida{display:grid;grid-template-columns:1fr;gap:0;margin:0 22px 18px;text-decoration:none;border-radius:16px;overflow:hidden;background:var(--tinta)}
+.guida img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:top}
+.guida-testo{display:flex;flex-direction:column;gap:6px;padding:16px 18px}
+.occhiello{font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
+.quando{font-size:1.6rem;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.descr{margin:0;color:var(--tenue);font-size:.93rem}
+@media (min-width:520px){.guida{grid-template-columns:44% 1fr}.guida img{height:100%;aspect-ratio:3/4}}
+.guida:hover .quando{color:var(--acc)}
+
+.risultati li{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;column-gap:10px;padding:9px 0;border-top:1px dashed var(--linea)}
+.risultati li:first-child{border-top:0}
+.risultati .cat{grid-column:1/-1;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--acc);margin-bottom:3px;text-align:center}
+.risultati .squadra{font-weight:600;line-height:1.2;overflow-wrap:anywhere}
+.risultati .casa{text-align:right}
+.risultati .punteggio{font-weight:700;font-size:1.05rem;font-variant-numeric:tabular-nums;background:var(--tinta);color:var(--testo);padding:4px 10px;border-radius:8px;white-space:nowrap}
+.risultati .punteggio i{font-style:normal;color:var(--tenue);margin:0 3px}
+
+.numeri{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 22px 16px}
+.numero{display:flex;flex-direction:column;text-decoration:none;padding:14px 16px;border-radius:16px;background:var(--tinta)}
+.numero .cifra{font-size:clamp(1.8rem,5vw,2.4rem);font-weight:700;letter-spacing:-.03em;line-height:1;color:var(--acc)}
+.numero .nome{font-weight:600;margin-top:6px}
+.numero:first-child .cifra{color:#c43d2e}
+@media (prefers-color-scheme:dark){.numero:first-child .cifra{color:#ff7a6b}}
+.ospedale{display:flex;flex-direction:column;gap:2px;margin:0 22px 18px;padding:14px 16px;border:1px solid var(--linea);border-radius:16px}
+.ospedale .nome{font-weight:700}
+.ospedale .ind{color:var(--tenue);font-size:.92rem}
+.ospedale a{margin-top:6px;font-weight:700;color:var(--acc);text-decoration:none}
+
+/* comuni */
+.comuni{display:grid;gap:12px;grid-template-columns:1fr}
+@media (min-width:560px){.comuni{grid-template-columns:1fr 1fr}}
+@media (min-width:960px){.comuni{grid-template-columns:repeat(4,1fr)}}
+.comune{background:var(--carta);border:1px solid var(--linea);border-radius:var(--r);padding:16px 18px;box-shadow:var(--ombra);position:relative;overflow:hidden}
+.comune::after{content:"";position:absolute;right:-30px;bottom:-30px;width:90px;height:90px;border-radius:50%;background:var(--tinta-calcio);opacity:.8}
+.comune h3{margin:0;font-size:1.1rem;letter-spacing:-.01em;position:relative}
+.comune .ind{margin:2px 0 10px;font-size:.85rem;color:var(--tenue);position:relative}
+.comune .link{display:flex;flex-wrap:wrap;gap:6px;margin:0;position:relative;z-index:1}
+.comune .link a{font-size:.84rem;font-weight:600;text-decoration:none;padding:5px 10px;border-radius:99px;border:1px solid var(--linea);background:var(--bg)}
+.comune .link a:hover{border-color:var(--verde);color:var(--verde)}
+
+/* piede */
+.piede{background:var(--cielo1);color:rgb(255 255 255/.8);padding:40px 0 48px;font-size:.93rem}
+.piede .marchio{color:#fff;margin:0 0 10px}
+.piede p{max-width:70ch}
+.piede a{color:#fff}
+.piede .nota{color:rgb(255 255 255/.6)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+:focus-visible{outline:3px solid var(--sole);outline-offset:2px;border-radius:6px}
+.altri{margin:-6px 22px 16px;text-align:center;font-size:.9rem}
+.altri a{color:var(--acc);font-weight:600}
+.categorie{display:flex;flex-wrap:wrap;gap:6px;margin:0 22px 18px;text-decoration:none}
+.categorie span{font-size:.86rem;padding:6px 11px;border-radius:99px;background:var(--tinta)}
+.categorie b{color:var(--acc)}
+.categorie:hover span{outline:1px solid var(--acc)}

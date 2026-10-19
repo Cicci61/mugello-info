@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mugello.info/sitemap.xml
