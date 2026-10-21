@@ -385,3 +385,23 @@ main{position:relative;z-index:3}
 .segui .fb:hover{filter:brightness(1.08)}
 .piede-fb .fb{display:inline-flex;align-items:center;gap:8px;font-weight:700;text-decoration:none;color:#fff}
 .piede-fb .fb:hover{text-decoration:underline}
+
+/* ---------- podcast Voci del Mugello ---------- */
+.podcast-testa{display:grid;grid-template-columns:1fr;gap:18px;align-items:center;max-width:820px;margin:0 auto 26px}
+.podcast-testa img{width:min(220px,60vw);height:auto;border-radius:22px;box-shadow:var(--ombra)}
+.podcast-testa h1{color:var(--testo);font-size:clamp(2rem,6vw,3.2rem);max-width:none;margin:2px 0 8px}
+.podcast-testa .occhiello{color:var(--verde);margin:0}
+.lead-podcast{margin:0 0 10px;color:var(--tenue);font-size:1.05rem}
+.podcast-voce{margin:0 0 8px;padding:10px 14px;border-radius:12px;background:var(--tinta-calcio);font-size:.95rem}
+.podcast-voce a,.podcast-feed a{color:var(--verde);font-weight:700}
+.podcast-feed{margin:0;font-size:.85rem;color:var(--tenue)}
+@media (min-width:700px){.podcast-testa{grid-template-columns:220px 1fr}}
+.puntate{display:grid;gap:14px;max-width:820px;margin:0 auto}
+.puntata{background:var(--carta);border:1px solid var(--linea);border-radius:var(--r);padding:16px 18px;box-shadow:var(--ombra)}
+.puntata h2{margin:4px 0 6px;font-size:1.3rem;line-height:1.2}
+.puntata h2 a{text-decoration:none}
+.puntata .art-sommario{font-size:1rem;margin:0 0 10px}
+.puntata audio,.lettore audio{width:100%;display:block}
+.lettore{display:flex;gap:14px;align-items:center;margin:16px 0;padding:12px;border-radius:var(--r);background:var(--carta);border:1px solid var(--linea)}
+.lettore img{width:72px;height:72px;border-radius:12px;flex:none}
+.lettore audio{flex:1;min-width:0}
