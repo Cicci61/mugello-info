@@ -377,3 +377,11 @@ main{position:relative;z-index:3}
 .m-giorno li:first-child{border-top:0}
 .m-info{font-size:.86rem;color:var(--tenue)}
 .m-info a{color:var(--tenue)}
+
+/* ---------- Facebook ---------- */
+.ico-fb{width:18px;height:18px;flex:none}
+.segui{margin:14px 0 0}
+.segui .fb{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:.95rem;padding:10px 18px;border-radius:99px;background:#1877f2;color:#fff;box-shadow:0 4px 14px -4px rgb(0 0 0/.4)}
+.segui .fb:hover{filter:brightness(1.08)}
+.piede-fb .fb{display:inline-flex;align-items:center;gap:8px;font-weight:700;text-decoration:none;color:#fff}
+.piede-fb .fb:hover{text-decoration:underline}
