@@ -405,3 +405,31 @@ main{position:relative;z-index:3}
 .lettore{display:flex;gap:14px;align-items:center;margin:16px 0;padding:12px;border-radius:var(--r);background:var(--carta);border:1px solid var(--linea)}
 .lettore img{width:72px;height:72px;border-radius:12px;flex:none}
 .lettore audio{flex:1;min-width:0}
+
+/* rubrica "Dai Comuni" */
+:root{--comuni:#6b4fa0;--tinta-comuni:#efe9f7}
+@media (prefers-color-scheme:dark){:root{--comuni:#b9a2e6;--tinta-comuni:#221c2e}}
+.carta-comuni{--acc:var(--comuni);--tinta:var(--tinta-comuni)}
+.rubrica-anteprima{padding:0 22px 18px}
+.cappello{margin:0 0 14px;font-size:1.05rem;max-width:75ch}
+.chip-comuni{display:flex;flex-wrap:wrap;gap:6px;margin:0}
+.chip-comuni a{font-size:.84rem;font-weight:600;text-decoration:none;padding:5px 11px;border-radius:99px;background:var(--tinta-comuni);color:var(--testo)}
+.chip-comuni a:hover{outline:1px solid var(--comuni)}
+.testata-piccola{background:linear-gradient(180deg,var(--cielo1),var(--cielo2));color:#fff}
+.menu-sempre{display:flex}
+.rubrica{max-width:760px;padding-top:32px;padding-bottom:56px}
+.edizione .occhiello{color:var(--comuni)}
+.edizione h1{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.08;max-width:none;margin:8px 0 10px;color:var(--testo)}
+.data-edizione{margin:0 0 18px;color:var(--tenue);font-size:.92rem}
+.data-edizione a{color:var(--tenue)}
+.indice{margin-bottom:28px}
+.testo-rubrica{font-size:1.07rem;line-height:1.65}
+.testo-rubrica h2{font-size:1.3rem;letter-spacing:-.01em;margin:34px 0 8px;padding-top:14px;border-top:3px solid var(--tinta-comuni);color:var(--comuni);scroll-margin-top:16px}
+.testo-rubrica p{margin:0 0 14px;overflow-wrap:anywhere}
+.testo-rubrica strong{font-weight:700}
+.archivio{margin-top:52px;padding-top:20px;border-top:1px solid var(--linea)}
+.archivio h2{font-size:1.25rem;margin:0 0 12px}
+.archivio ul{list-style:none;margin:0;padding:0}
+.archivio li a{display:flex;flex-direction:column;gap:2px;padding:12px 0;border-top:1px dashed var(--linea);text-decoration:none}
+.archivio time{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--comuni)}
+.archivio li a:hover span{text-decoration:underline}
