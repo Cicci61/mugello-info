@@ -143,7 +143,8 @@
     const piccolo = (cls, x, etichetta) => {
       const m = L.circleMarker([x.lat, x.lon], { radius: 6, weight: 2, color: '#fff', fillOpacity: 1, className: cls });
       m.bindPopup(`<div class="pop"><p class="pop-cat">${etichetta}</p><strong>${esc(x.nome)}</strong>` +
-        (x.link ? `<a class="pop-vai" href="${esc(x.link)}" target="_blank" rel="noopener">Scheda e contatti →</a>` : '') + '</div>');
+        (x.sito ? `<a class="pop-vai" href="${esc(x.sito)}" target="_blank" rel="noopener">Sito web →</a><br>` : '') +
+        (x.link && x.link !== x.sito ? `<a class="pop-vai pop-sec" href="${esc(x.link)}" target="_blank" rel="noopener">${x.sito ? 'Contatti' : 'Scheda e contatti'} →</a>` : '') + '</div>');
       return m;
     };
     D.strutture.forEach(x => livelli.strutture.addLayer(piccolo('pt-struttura', x, 'Dove dormire')));

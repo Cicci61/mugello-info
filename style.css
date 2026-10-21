@@ -312,3 +312,33 @@ main{position:relative;z-index:3}
 .altri-percorsi{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin:34px 0 0;padding-top:16px;border-top:1px solid var(--linea)}
 .altri-percorsi a{font-weight:700;color:var(--orme);text-decoration:none}
 .leaflet-container{font-family:"Inter Tight",system-ui,sans-serif}
+.nomi .scheda{font-size:.78rem;color:var(--tenue);margin-left:4px}
+.pop .pop-sec{font-weight:600;color:#6b5a4c;font-size:13px}
+
+/* ---------- pagine delle singole voci del menu ---------- */
+.torna{margin:0 0 14px}
+.torna a{font-weight:700;text-decoration:none;color:var(--verde)}
+.torna a:hover{text-decoration:underline}
+.sezione-sola{padding-top:22px;padding-bottom:48px}
+.sola{max-width:820px;margin:0 auto}
+.sola .carta{margin:0}
+.testata-orme .menu a[aria-current]{background:rgb(255 255 255/.16);color:#fff}
+.menu a[aria-current]{background:rgb(255 255 255/.16);color:#fff}
+@media (max-width:899px){
+  .barra{flex-wrap:wrap;row-gap:8px}
+  .menu,.testata-orme .menu-sempre{display:flex;width:100%;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;margin:0 -6px;padding-bottom:2px}
+  .menu::-webkit-scrollbar{display:none}
+  .menu a{flex:none;padding:7px 11px}
+}
+.comuni-pagina .comuni{grid-template-columns:1fr}
+@media (min-width:700px){.comuni-pagina .comuni{grid-template-columns:1fr 1fr}}
+@media (min-width:1100px){.comuni-pagina .comuni{grid-template-columns:1fr 1fr 1fr}}
+.comune.con-bollettino::after{display:none}
+.bollettino{margin-top:14px;padding-top:12px;border-top:1px dashed var(--linea)}
+.boll-data{margin:0 0 6px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--verde)}
+.boll-testo{font-size:.92rem;line-height:1.55}
+.boll-testo p{margin:0 0 8px}
+.boll-testo ul{margin:0 0 8px;padding-left:18px}
+.boll-link{margin:4px 0 0;font-size:.88rem}
+.boll-link a{font-weight:700;color:var(--verde)}
+.boll-vuoto{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--linea);font-size:.88rem;color:var(--tenue)}
