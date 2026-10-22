@@ -439,3 +439,27 @@ main{position:relative;z-index:3}
 .archivio li a{display:flex;flex-direction:column;gap:2px;padding:12px 0;border-top:1px dashed var(--linea);text-decoration:none}
 .archivio time{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--comuni)}
 .archivio li a:hover span{text-decoration:underline}
+
+/* pagina Contatti */
+.piede-fb .ct{font-weight:700;text-decoration:none;color:#fff}
+.piede-fb .ct:hover{text-decoration:underline}
+.contatti-pag{max-width:820px;margin-left:auto;margin-right:auto}
+.lead-c{font-size:1.08rem;margin:0 0 22px;max-width:62ch}
+.lead-c a{color:var(--verde);font-weight:700}
+.canali{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-bottom:28px}
+.canale{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:var(--r);background:var(--carta);box-shadow:var(--ombra);
+  border:1px solid var(--linea);text-decoration:none;min-width:0}
+.canale:hover{border-color:currentColor}
+.canale .ico,.canale .ico-fb{width:22px;height:22px;flex:none;padding:9px;border-radius:50%;color:#fff;box-sizing:content-box}
+.canale span{display:flex;flex-direction:column;min-width:0}
+.canale b{font-size:1.05rem}
+.canale small{color:var(--tenue);font-size:.92rem;overflow-wrap:anywhere}
+.canale.mail .ico{background:var(--verde)}
+.canale.fbk .ico-fb{background:#1877f2}
+.canale.igm .ico-fb{background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888)}
+@media (prefers-color-scheme:dark){.canale.mail .ico{color:#0e1512}}
+.nota-c{background:var(--carta);border:1px solid var(--linea);border-radius:var(--r);padding:18px 20px}
+.nota-c h3{margin:0 0 8px;font-size:1.1rem}
+.nota-c p{margin:0 0 10px;color:var(--tenue)}
+.nota-c p:last-child{margin:0}
+.nota-c a{color:var(--verde)}
