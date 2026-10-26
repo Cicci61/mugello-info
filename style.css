@@ -4,7 +4,7 @@
 
 :root{
   --bg:#f3efe6; --carta:#fffdf8; --testo:#1b2420; --tenue:#5a655f; --linea:#e4ddcf; --ombra:0 1px 2px rgb(40 30 10/.06),0 8px 24px -12px rgb(40 30 10/.18);
-  --verde:#1f5a45; --strade:#c7701c; --eventi:#b83a62; --calcio:#23804d; --salute:#2a66ab;
+  --verde:#1f5a45; --strade:#c7701c; --eventi:#b83a62; --calcio:#23804d; --salute:#2a66ab; --mangiare:#b5532a; --tinta-mangiare:#f8eae1;
   --tinta-strade:#fbefe2; --tinta-eventi:#f9e6ec; --tinta-calcio:#e3f2e8; --tinta-salute:#e4edf8;
   --cielo1:#0f2d28; --cielo2:#24564a; --cielo3:#d98f4e; --sole:#ffd28a;
   --col1:#4c8462; --col2:#2f644b; --col3:#1d4a37;
@@ -13,7 +13,7 @@
 @media (prefers-color-scheme:dark){
   :root{
     --bg:#0e1512; --carta:#16201b; --testo:#e7ece9; --tenue:#9eaca4; --linea:#25332c; --ombra:0 1px 2px rgb(0 0 0/.3),0 10px 30px -14px rgb(0 0 0/.6);
-    --verde:#7cc3a2; --strade:#f0a35a; --eventi:#ec7d9f; --calcio:#6ccf93; --salute:#7fb1ec;
+    --verde:#7cc3a2; --strade:#f0a35a; --eventi:#ec7d9f; --calcio:#6ccf93; --salute:#7fb1ec; --mangiare:#ec9468; --tinta-mangiare:#2c1d16;
     --tinta-strade:#2b2117; --tinta-eventi:#2c1a21; --tinta-calcio:#16291e; --tinta-salute:#172333;
     --cielo1:#08130f; --cielo2:#163a31; --cielo3:#8a5a35; --sole:#e7b06a;
     --col1:#2b5340; --col2:#1d3d2f; --col3:#142e23;
@@ -96,6 +96,11 @@ main{position:relative;z-index:3}
 .carta-eventi{--acc:var(--eventi);--tinta:var(--tinta-eventi)}
 .carta-calcio{--acc:var(--calcio);--tinta:var(--tinta-calcio)}
 .carta-salute{--acc:var(--salute);--tinta:var(--tinta-salute)}
+.carta-mangiare{--acc:var(--mangiare);--tinta:var(--tinta-mangiare)}
+@media (min-width:860px){.carta-mangiare{grid-column:1/-1}}
+.due-vie{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 22px 14px}
+.due-vie a{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:14px 16px;border-radius:14px;background:var(--tinta);color:var(--acc);font-weight:600;text-decoration:none}
+.due-vie a:hover{outline:1.5px solid var(--acc)}
 .carta>header{display:flex;gap:14px;align-items:center;padding:24px 22px 14px}
 .bollo{display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--tinta);color:var(--acc);flex:none}
 .carta h2{margin:0;font-size:1.5rem;letter-spacing:-.02em;line-height:1.1}
