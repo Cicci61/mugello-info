@@ -37,7 +37,8 @@ a{color:inherit}
 .colline{position:absolute;left:0;bottom:-1px;width:100%;height:clamp(120px,20vw,260px);display:block}
 .colline .c1{fill:var(--col1)} .colline .c2{fill:var(--col2)} .colline .c3{fill:var(--col3)} .colline .c4{fill:var(--bg)}
 .barra{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:18px;padding-bottom:18px}
-.marchio{font-weight:700;font-size:1.3rem;letter-spacing:-.02em;text-decoration:none}
+.marchio{display:inline-flex;align-items:center;font-weight:700;font-size:1.3rem;letter-spacing:-.02em;text-decoration:none}
+.marchio .simbolo{width:30px;height:30px;flex:none;margin-right:9px}
 .marchio span{color:var(--sole)}
 .menu{display:none;gap:4px}
 .menu a{text-decoration:none;font-weight:600;font-size:.92rem;padding:8px 12px;border-radius:99px;color:rgb(255 255 255/.85)}
@@ -159,7 +160,7 @@ main{position:relative;z-index:3}
 
 /* piede */
 .piede{background:var(--cielo1);color:rgb(255 255 255/.8);padding:40px 0 48px;font-size:.93rem}
-.piede .marchio{color:#fff;margin:0 0 10px}
+.piede .marchio{display:flex;color:#fff;margin:0 0 10px}
 .piede p{max-width:70ch}
 .piede a{color:#fff}
 .piede .nota{color:rgb(255 255 255/.6)}
