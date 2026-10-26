@@ -527,3 +527,7 @@ main{position:relative;z-index:3}
   .fascia{grid-template-columns:1fr;grid-template-areas:"fn" "fi" "ft" "fd";text-align:center;padding:10px 6px;row-gap:4px}
   .fn{font-size:.68rem}.fi{font-size:1.7rem}.ft{font-size:1.1rem}.fd{margin-top:0;font-size:.78rem}
   .prossimi{margin:0 12px}.meteo-paese summary{padding:13px 14px}.almanacco{padding:18px 16px}}
+/* Titolo di sezione col suo simbolo (loghi delle sezioni approvati da Fabio il 26/10/2026) */
+.titolo-sez{display:flex;align-items:center;gap:.3em}
+.titolo-sez .simbolo-sez{width:1.15em;height:1.15em;flex:none}
+.pagina-titolo{color:var(--testo);font-size:clamp(2rem,6vw,3.2rem);line-height:1.04;max-width:none;margin:2px 0 20px}
