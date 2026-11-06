@@ -587,3 +587,21 @@ main{position:relative;z-index:3}
 .lav-nota{max-width:720px}
 .lav-bacheca .bot{display:inline-block;font-size:.92rem;font-weight:700;padding:10px 18px;border-radius:99px;border:1px solid var(--linea);background:var(--carta);text-decoration:none}
 .lav-bacheca .bot:hover{border-color:var(--verde)}
+
+/* pagina Newsletter (06/11/2026) */
+.nl-pag{max-width:720px;margin-left:auto;margin-right:auto}
+.nl-testa{background:linear-gradient(180deg,var(--cielo1),var(--cielo2));color:#fff;border-radius:var(--r);padding:26px 24px 24px;margin-bottom:18px}
+.nl-occhiello{margin:0 0 6px;color:var(--sole);font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase}
+.nl-testa h2{margin:0 0 10px;font-size:clamp(1.6rem,5vw,2.3rem);line-height:1.08}
+.nl-lead{margin:0;color:rgb(255 255 255/.9);font-size:1.05rem;max-width:58ch}
+.nl-modulo{background:var(--carta);border:1px solid var(--linea);border-radius:var(--r);padding:20px;box-shadow:var(--ombra);margin-bottom:18px}
+.nl-modulo label{display:block;font-weight:700;margin-bottom:8px}
+.nl-riga{display:flex;gap:10px;flex-wrap:wrap}
+.nl-riga input{flex:1 1 220px;min-width:0;font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:12px;border:1px solid var(--linea);background:var(--bg);color:var(--testo)}
+.nl-riga button{flex:none;font:inherit;font-weight:700;font-size:1.05rem;padding:12px 22px;border-radius:999px;border:none;background:var(--verde);color:#fff;cursor:pointer}
+.nl-riga button:disabled{opacity:.6}
+@media (prefers-color-scheme:dark){.nl-riga button{color:#0e1512}}
+.nl-modulo input:focus-visible,.nl-riga button:focus-visible{outline:3px solid var(--sole);outline-offset:2px}
+.nl-piccolo{margin:10px 0 0;color:var(--tenue);font-size:.9rem}
+.nl-nascosto{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.nl-grazie{background:var(--tinta-calcio);border-radius:var(--r);padding:18px 20px;font-weight:600;margin:0 0 18px}
