@@ -397,6 +397,10 @@ main{position:relative;z-index:3}
 .piede-fb{display:flex;flex-wrap:wrap;gap:8px 22px}
 .piede-fb .ig{display:inline-flex;align-items:center;gap:8px;font-weight:700;text-decoration:none;color:#fff}
 .piede-fb .ig:hover{text-decoration:underline}
+.segui .wa{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:.95rem;padding:10px 18px;border-radius:99px;background:#128c4b;color:#fff;box-shadow:0 4px 14px -4px rgb(0 0 0/.4)}
+.segui .wa:hover{filter:brightness(1.08)}
+.piede-fb .wa{display:inline-flex;align-items:center;gap:8px;font-weight:700;text-decoration:none;color:#fff}
+.piede-fb .wa:hover{text-decoration:underline}
 
 /* ---------- podcast (Controvento dal 28/10/2026) ---------- */
 .podcast-testa{display:grid;grid-template-columns:1fr;gap:18px;align-items:center;max-width:820px;margin:0 auto 26px}
@@ -472,6 +476,7 @@ main{position:relative;z-index:3}
 .canale.mail .ico{background:var(--verde)}
 .canale.fbk .ico-fb{background:#1877f2}
 .canale.igm .ico-fb{background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888)}
+.canale.wam .ico-fb{background:#128c4b}
 @media (prefers-color-scheme:dark){.canale.mail .ico{color:#0e1512}}
 .nota-c{background:var(--carta);border:1px solid var(--linea);border-radius:var(--r);padding:18px 20px}
 .nota-c h3{margin:0 0 8px;font-size:1.1rem}
