@@ -610,3 +610,13 @@ main{position:relative;z-index:3}
 .nl-piccolo{margin:10px 0 0;color:var(--tenue);font-size:.9rem}
 .nl-nascosto{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .nl-grazie{background:var(--tinta-calcio);border-radius:var(--r);padding:18px 20px;font-weight:600;margin:0 0 18px}
+/* allerta meteo in evidenza (12/11/2026), da allerta.json */
+.allerta-evidenza{margin:20px 0 24px;padding:16px 20px;border-radius:var(--r);background:#fff3e6;border:1px solid #f0c08f;border-left:8px solid var(--arancio);color:#3a2410}
+.allerta-evidenza.al-giallo{background:#fff9e0;border-color:#ecd889;border-left-color:var(--giallo)}
+.allerta-evidenza.al-rosso{background:#fde9e6;border-color:#eba59c;border-left-color:var(--rosso)}
+.allerta-evidenza p{margin:0 0 6px}
+.allerta-evidenza .ae-tit{font-weight:700;font-size:1.2rem}
+.allerta-evidenza .ae-quando{font-weight:600}
+.allerta-evidenza .ae-fonte{margin:0;font-size:.9rem;opacity:.85}
+.allerta-evidenza a{color:inherit;text-decoration:underline}
+@media (prefers-color-scheme:dark){.allerta-evidenza{background:#3a2410;border-color:#7a4a1c;color:#fbe3c8}.allerta-evidenza.al-rosso{background:#3d1612;color:#fbd6d1}.allerta-evidenza.al-giallo{background:#352d0c;color:#f6ecc0}}
