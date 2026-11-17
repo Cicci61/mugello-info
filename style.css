@@ -650,3 +650,6 @@ main{position:relative;z-index:3}
 .ifm-animali a,.ifm-nota a{color:var(--verde)}
 .ifm-nota{max-width:720px;margin:0 0 22px}
 .ifm-legale{font-size:.85rem;color:var(--tenue)}
+/* menu su una riga anche con la voce Necrologi (17/11/2026): voci mai spezzate; sui portatili stretti la riga scorre come sul telefono */
+.menu a{white-space:nowrap}
+@media (min-width:900px){.menu{gap:2px;min-width:0;overflow-x:auto;scrollbar-width:none}.menu a{padding:8px 9px}.menu::-webkit-scrollbar{display:none}}
