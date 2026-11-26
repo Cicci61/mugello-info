@@ -1,0 +1,61 @@
+# Mugello.info
+
+> Il Mugello in una pagina sola: notizie, meteo, viabilità, eventi, sport, salute, percorsi e Comuni del Mugello e della Val di Sieve (Toscana, provincia di Firenze). Portale gratuito e indipendente a cura di Fabio Ceseri, aggiornato ogni mezz'ora.
+
+Contatti: https://mugello.info/contatti/
+
+## Sezioni
+
+- [Mugello News](https://mugello.info/notizie/): Mugello News: le notizie di Mugello.info e le comunicazioni ufficiali dei Comuni del Mugello e della Valdisieve.
+- [Meteo e almanacco del Mugello](https://mugello.info/meteo/): Le previsioni del LaMMA paese per paese in Mugello e Val di Sieve, le allerte meteo, alba, tramonto, luna e l'almanacco del giorno.
+- [Viabilità nel Mugello](https://mugello.info/strade/): Strade chiuse, lavori e sensi unici alternati in corso oggi nei Comuni del Mugello.
+- [Eventi nel Mugello](https://mugello.info/eventi/): La guida agli eventi del weekend nel Mugello: sagre, mostre, musica e sport. E i mercati settimanali di ogni paese.
+- [Sport nel Mugello](https://mugello.info/sport/): I risultati delle squadre di calcio di Mugello e Val di Sieve, da Tuttocampo e dai comunicati ufficiali della LND.
+- [Salute nel Mugello](https://mugello.info/salute/): Numeri utili, ospedale, medici di famiglia e farmacie del Mugello.
+- [I Comuni del Mugello](https://mugello.info/comuni/): I Comuni del Mugello e della Valdisieve: il bollettino Dai Comuni, indirizzi, viabilità, salute e le ultime novità di ogni Comune.
+- [Orme del Mugello: i percorsi sulla mappa](https://mugello.info/orme-del-mugello/): I 14 percorsi di Orme del Mugello su una mappa interattiva: tracce GPX, chiese, castelli, borghi e punti panoramici lungo il cammino, a piedi, in bici e con il cane.
+- [Controvento, il podcast](https://mugello.info/podcast/): Il podcast di mugello.info che racconta e commenta le notizie del Mugello: politica, società, sport, costume ed eventi. Dentro ci sono più rubriche: il Notiziario con le notizie del giorno, letto da una voce generata con l'intelligenza artificiale; il commento di Fabio Ceseri; gli ospiti che aiutano a capire i temi del momento.
+- [Newsletter: Mugello.info, la settimana](https://mugello.info/newsletter/): Ogni venerdì mattina nella tua mail le novità dei siti del Mugello, gli articoli più importanti della settimana e il calcio di casa. Gratis, ti cancelli quando vuoi.
+
+## Ultime notizie
+
+- [Almanacco del Mugello – Venerdì 27 novembre](https://mugello.info/notizie/almanacco-del-mugello-2026-11-27/): Ultimo venerdì del mese: giornate corte, sera presto e qualche camino già acceso. Giornata buona per una cena in compagnia.
+- [Rassegna del giorno, giovedì 26 novembre 2026](https://mugello.info/notizie/rassegna-del-giorno-2026-11-26/): Allerta gialla in Mugello; femminicidio nel Pistoiese; acqua sospesa a Firenze lunedì 30 novembre; la Camera approva il decreto scuola; petroliera affondata a Ibiza
+- [Almanacco del Mugello – Giovedì 26 novembre](https://mugello.info/notizie/almanacco-del-mugello-2026-11-26/): Giovedì 26 novembre: le giornate sono corte, il camino lavora e nei borghi si preparano le prime luci di Natale. La sera è fatta apposta per un tè caldo e una buona storia. Buona giornata a tutti.
+- [Rassegna del giorno, mercoledì 25 novembre 2026](https://mugello.info/notizie/rassegna-del-giorno-2026-11-25/): Allerta gialla in tre zone della Toscana; stato di emergenza regionale per il maltempo; Istat: una donna su tre ha subito violenza; carburanti in calo; bollette britanniche su del 26%.
+- [Almanacco del Mugello – Mercoledì 25 novembre](https://mugello.info/notizie/almanacco-del-mugello-2026-11-25/): Siamo a metà settimana e a fine novembre: le giornate sono corte, il camino lavora volentieri e la sera si sta bene in casa. Oggi, 25 novembre, è anche la Giornata internazionale contro la violenza su
+- [Rassegna del giorno, martedì 24 novembre 2026](https://mugello.info/notizie/rassegna-del-giorno-2026-11-24/): Casello di Barberino chiuso temporaneamente; A1, una notte senza il parcheggio di Villa Costanza; Eni proroga il tetto ai prezzi dei carburanti; Cop31, oltre 80 Paesi contro l'accordo finale; l'Estonia chiude il confine con la Russia
+- [Almanacco del Mugello – Martedì 24 novembre](https://mugello.info/notizie/almanacco-del-mugello-2026-11-24/): Buongiorno, Mugello. Siamo agli ultimi giorni di novembre, quando le castagne sono ormai nelle dispense e il camino torna a essere il centro della casa. Oggi è martedì: la settimana è avviata, ed è an
+- [Rassegna del giorno, lunedì 23 novembre 2026](https://mugello.info/notizie/rassegna-del-giorno-2026-11-23/): Murgia al Corsini di Barberino; Firenze, arrestato l'investitore di via Torcicoda; Ue, indagine sull'imbottigliatore Coca-Cola; Kiev colpisce navi russe davanti alla Libia; Usa, ai democratici anche la North Carolina
+- [Rassegna del mattino, lunedì 23 novembre 2026](https://mugello.info/notizie/rassegna-del-mattino-2026-11-23/): Allerta vento sulla costa toscana in calo; A1, finita in anticipo una fase dei lavori a sud di Firenze; arrestato l'uomo che ha travolto una donna a Firenze; Dymer, salgono a nove i morti; concerto evacuato a Manchester
+- [Almanacco del Mugello – Lunedì 23 novembre](https://mugello.info/notizie/almanacco-del-mugello-2026-11-23/): Una nuova settimana comincia, e novembre ci porta le giornate corte e i camini accesi. Il lunedì ha sempre il suo passo lento: una buona scusa per partire con calma e con una tazza calda tra le mani.
+- [Rassegna del giorno, domenica 22 novembre 2026](https://mugello.info/notizie/rassegna-del-giorno-2026-11-22/): Allerta arancione in Toscana per temporali e mareggiate; morto l'ex capo della polizia De Gennaro; anziana travolta a Firenze; Cop31 in stallo; droni russi su un condominio vicino a Kiev
+- [Almanacco del Mugello – Domenica 22 novembre](https://mugello.info/notizie/almanacco-del-mugello-2026-11-22/): Ultima domenica prima dell'Avvento, e il Mugello ha già il sapore dell'inverno. Camino acceso, un caffè lungo e nessuna fretta: è il giorno giusto per il pranzo in famiglia e per una passeggiata, se i
+- [Rassegna del giorno, sabato 21 novembre 2026](https://mugello.info/notizie/rassegna-del-giorno-2026-11-21/): Morto l'ex capo della Polizia Gianni De Gennaro; allerta arancione per mareggiate sulla costa toscana; riaperta la statale del Brennero; Schettino lascia il carcere; terremoto in Perù
+- [Almanacco del Mugello – Sabato 21 novembre](https://mugello.info/notizie/almanacco-del-mugello-2026-11-21/): Con l'inverno alle porte e i camini che tornano a fumare, il Mugello sa di tartufo e di legna.
+- [Rassegna del giorno, venerdì 20 novembre 2026](https://mugello.info/notizie/rassegna-del-giorno-2026-11-20/): Chiusura notturna dell'A1 tra Calenzano e Barberino; codice arancione per vento sulla costa toscana; sciopero generale in tutta Italia; missili e drone russi in Polonia; attacco su Kiev
+
+## Percorsi di Orme del Mugello
+
+- [Le origini del Mugello](https://mugello.info/orme-del-mugello/le-origini-del-mugello/): Le origini del Mugello: Dai ritrovamenti neolitici alle tracce di Celti ed Etruschi Percorso 1 di Orme del Mugello, 49 km, 3 giorni, difficoltà media. Mappa, 9 luoghi lungo il cammino e traccia GPX.
+- [Mugello terra di strade](https://mugello.info/orme-del-mugello/mugello-terra-di-strade/): Mugello terra di strade: Futa, Giogo, Colla, Muraglione e i passi che univano i due lati degli Appennini Percorso 2 di Orme del Mugello, 51 km, 2/3 giorni, difficoltà difficile. Mappa, 18 luoghi lungo il cammino e traccia GPX.
+- [Mugello mediceo](https://mugello.info/orme-del-mugello/mugello-mediceo/): Mugello mediceo: Dalle origini dei Medici, alle loro ville, alla scoperta della famiglia che ha cambiato un'era Percorso 3 di Orme del Mugello, 23 km, 1 giorno, difficoltà facile. Mappa, 8 luoghi lungo il cammino e traccia GPX.
+- [Il Mugello nella letteratura](https://mugello.info/orme-del-mugello/il-mugello-nella-letteratura/): Il Mugello nella letteratura: Da Dante a Dino Campana, passando per Carducci, attraverso secoli di grandi letterati Percorso 4 di Orme del Mugello, 128 km, 5/6 giorni, difficoltà difficile. Mappa, 29 luoghi lungo il cammino e traccia GPX.
+- [Mugello Cristiano](https://mugello.info/orme-del-mugello/mugello-cristiano/): Mugello Cristiano: Dall’arrivo del cristianesimo in Mugello ai tanti eremi, chiesette e abbazie contenenti grandi tesori e che hanno segnato la fede dei Mugellani e non solo Percorso 5 di Orme del Mugello, 211,4 km, 8/10 giorni, difficoltà difficile. Mappa, 70 luoghi lungo il cammino e traccia GPX.
+- [I Pilastri della Fede](https://mugello.info/orme-del-mugello/i-pilastri-della-fede/): I Pilastri della Fede: I grandi sacerdoti mugellani che in modo diverso hanno segnato la Chiesa e le nostre abitudini. L’abate del Buonsollazzo, Montesenario, Monsignor Della Casa, Monsignor Bartolucci, Don Milani Percorso 6 di Orme del Mugello, 73 km, 3/4 giorni, difficoltà difficile. Mappa, 16 luoghi lungo il cammino e traccia GPX.
+- [Il Mugello dei grandi pittori](https://mugello.info/orme-del-mugello/il-mugello-dei-grandi-pittori/): Il Mugello dei grandi pittori: Giotto, Beato Angelico, Andrea del Castagno, Annigoni e i paesaggi che li hanno ispirati Percorso 7 di Orme del Mugello, 61 km, 2/3 giorni, difficoltà media. Mappa, 20 luoghi lungo il cammino e traccia GPX.
+- [Il sentiero del Risorgimento](https://mugello.info/orme-del-mugello/il-sentiero-del-risorgimento/): Il sentiero del Risorgimento: Rocambolesche avventure, fughe e aneddoti ai tempi dell’unità d’Italia che si intreccia con i percorsi del Gran Tour Percorso 8 di Orme del Mugello, 128 km, 5/6 giorni, difficoltà difficile. Mappa, 19 luoghi lungo il cammino e traccia GPX.
+- [Il Mugello che non si arrende](https://mugello.info/orme-del-mugello/il-mugello-che-non-si-arrende/): Il Mugello che non si arrende: I percorsi dei partigiani e la lotta per la Liberazione Percorso 9 di Orme del Mugello, 50 km, 2 giorni, difficoltà difficile. Mappa, 11 luoghi lungo il cammino e traccia GPX.
+- [Mugello da difendere](https://mugello.info/orme-del-mugello/mugello-da-difendere/): Mugello da difendere: Gli itinerari della Linea Gotica tra fortificazioni e battaglie Percorso 10 di Orme del Mugello, 44 km, 3/4 giorni, difficoltà difficile. Mappa, 15 luoghi lungo il cammino e traccia GPX.
+- [Mugello da bere](https://mugello.info/orme-del-mugello/mugello-da-bere/): Mugello da bere: Dal Pinot Nero al Vin Santo, passando per il Sangiovese e le bollicine Percorso +1 di Orme del Mugello, 77 km, 3/4 giorni, difficoltà difficile. Mappa, 17 luoghi lungo il cammino e traccia GPX.
+- [Mugello Cicloturismo](https://mugello.info/orme-del-mugello/mugello-cicloturismo/): Mugello Cicloturismo: Percorso in stile gravel/cicloturismo Percorso +2 di Orme del Mugello, 73 km, 1 giorno, difficoltà gravel-style. Mappa, 15 luoghi lungo il cammino e traccia GPX.
+- [Gravel bassa valle](https://mugello.info/orme-del-mugello/gravel-bassa-valle/): Gravel bassa valle: Percorso pensato per gli amanti della Gravel Percorso +3 di Orme del Mugello, 59 km, 1 giorno, difficoltà gravel-style. Mappa, 14 luoghi lungo il cammino e traccia GPX.
+- [Sentiero del respiro](https://mugello.info/orme-del-mugello/sentiero-del-respiro/): Sentiero del respiro: Benvenuti sul Sentiero del Respiro, un luogo dove il tempo rallenta e la natura diventa maestra di benessere. Percorso +4 di Orme del Mugello, 6 km, Mezza Giornata, difficoltà facile. Mappa, 6 luoghi lungo il cammino e traccia GPX.
+
+## Altri siti della rete
+
+- [Viabilità Mugello](https://viabilitamugello.it/): lavori stradali, chiusure e deviazioni su mappa
+- [Mugello Eventi](https://mugelloeventi.it/): la guida agli eventi del weekend
+- [Calcio Mugello](https://calciomugello.it/): squadre, classifiche e risultati del calcio dilettanti
+- [Salute Mugello](https://salutemugello.it/): servizi sanitari e socio-sanitari del Mugello
+- [Mangiare e dormire in Mugello](https://mangiaredormiremugello.it/): ristoranti, bar, alberghi e B&B di Mugello e Val di Sieve
